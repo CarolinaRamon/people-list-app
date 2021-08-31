@@ -1,0 +1,25 @@
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "Arial";
+    background: url(back.png),
+      linear-gradient(to right, #023b36, #2196f3 );
+  }
+
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  #header {
+    background-color: #3f51b5;
+    text-align: center;
+  } 
