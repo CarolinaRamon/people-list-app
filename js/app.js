@@ -14,3 +14,17 @@ function showPeople(){
     }
     document.getElementById('persons').innerHTML = texto;
 }
+
+function addPerson(){
+    const form = document.forms['form'];
+    const name = form['name'];
+    const surname = form['surname'];
+    if(name.value != '' && surname.value != ''){
+        const person = new Person(name.value, surname.value);
+        console.log(person);
+        persons.push(person);
+        showPeople();
+    } else{
+        console.log('No information to be added.')
+    }
+}
